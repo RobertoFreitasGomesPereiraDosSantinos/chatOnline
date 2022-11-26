@@ -15,7 +15,7 @@ http.listen(porta, function () {
 });
 
 app.get("/", function (req, resp) {
-  fs.readFile(__dirname + "/chat.php", function (err, data) {
+  fs.readFile(__dirname + "/chat.html", function (err, data) {
     if (err) {
       return resp.end("falha ao carregar arquivo");
     }
