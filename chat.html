@@ -13,18 +13,9 @@
     <!-- fazendo um input invisivel ou com 'disabled' e
     colocando um 'value' nele que vai ser o nome do
     usuario e tambem o nome do projeto -->
-    <div id='acesso_usuario'>
-        <form id="login">
-            <input type='text' placeholder='Insira seu apelido' name='apelido' id='apelido'>
-            <input type='number' placeholder='Insira seu ID' name='id' id='id'>
-            <input type='submit' value='Entrar'>
-        </form>
-    </div>
     <div id="sala_chat">
-        <select multiple="multiple" id='lista_usuarios'>
-            <option value=''>Usuarios Conectados:</option>
-        </select>
         <div id="historico_mensagens"></div>
+        <input type="submit" id="hist" value="mostrar historico de menssagem">
         <form id="form" autocomplete="off">
             <input type='text' id='msg' name='texto_mensagem'>
             <input type='submit' value='Enviar mensagem!'>
