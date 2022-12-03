@@ -17,8 +17,8 @@ http.listen(porta, function () {
 });
 
 app.get("/", function (req, resp) {
-  ID = req.query.id;
-  NOME = req.query.nome;
+  ID = 111;
+  NOME = 'jo';
   fs.readFile(__dirname + "/chat.html", function (err, data) {
     if (err) {
       return resp.end("falha ao carregar arquivo");
