@@ -3,7 +3,7 @@ const fs = require("fs");
 const app = express();
 const http = require("http").Server(app);
 const serv_sockt = require("socket.io")(http);
-const porta = process.env.PORT || 3300;
+const porta = process.env.PORT || 3000;
 //------------------------------------
 let historico = [];
 let usuarios = [];
