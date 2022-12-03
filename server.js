@@ -94,4 +94,4 @@ function pegarDataAtual() {
   return dataFormatada;
 }
 
-_saveMsg_ = (neo_msg) => {historico.push(neo_msg);};
+_saveMsg_ = (neo_msg) => {historico.push(neo_msg);}
